@@ -1,6 +1,6 @@
 # curation-station
 
-An Ethereum-based curatorial platform for art exhibitions and expense management.
+An Ethereum-based curatorial platform for art exhibitions and expense management. Made with Truffle, Solidity, Web3.js, React and Next.js;
 
 
 Project Public Address (Vercel w/ Kovan Contract Deployment)
