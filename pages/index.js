@@ -26,7 +26,8 @@ class ExhibitionIndex extends Component {
                     description:
                     (
         
-                    <Link route={ `/exhibitions/${address}`}>
+                    // <Link route={ `/exhibitions/${address}`}>
+                            <Link href={`/exhibitions/show?address=${address}`} as={`/exhibitions/show?address=${address}`} passHref>
         
                     
                     <a>

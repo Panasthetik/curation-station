@@ -145,7 +145,8 @@ class ExhibitionShow extends Component {
             <Grid.Column width={3}>
             <ContributeForm address={this.props.address} />
             <h3>View Current Expense Proposals</h3>
-            <Link route={`/exhibitions/${this.props.address}/requests`}>
+                            {/* <Link route={`/exhibitions/${this.props.address}/requests`}> */}
+                            <Link href={`/exhibitions/requests?address=${this.props.address}`} as={`/exhibitions/requests?address=${this.props.address}`} passHref>
                 <a>
                     <Button color="olive">View Expense Proposals</Button>
                 </a>
